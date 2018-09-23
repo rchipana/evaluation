@@ -117,8 +117,6 @@
 					<!-- copy the service's jar file from target into the root directory 
 						of the image -->
 					<resources>
-					
-					
 						<resource>
 							<targetPath>/</targetPath>
 							<directory>${project.build.directory}</directory>
@@ -127,8 +125,6 @@
 					</resources>
 				</configuration>
 			</plugin>
-			
-			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
